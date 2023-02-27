@@ -15,10 +15,10 @@ class Control:
     def canalDown(self):
         self.tv.canalDown()
     
-    def volumentUp(self):
+    def volumenUp(self):
         self.tv.volumenUp()
         
-    def volumentDown(self):
+    def volumenDown(self):
         self.tv.volumenDown()
                    
     def setCanal(self, canal):
