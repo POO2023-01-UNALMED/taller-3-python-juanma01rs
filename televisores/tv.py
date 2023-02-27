@@ -30,7 +30,7 @@ class TV:
         return self._precio
                   
     def setVolumen (self, volumen):
-        if (self.estado == True):
+        if (self._estado == True):
             if (self._volumen >= 0 and self._volumen <= 7):
                 self._volumen = volumen
         
@@ -38,7 +38,7 @@ class TV:
         return self._volumen
     
     def setCanal (self, canal):
-        if (self.estado == True):
+        if (self._estado == True):
             if (self._canal >= 1 and self._canal < 120):
                 self._canal = canal
         
